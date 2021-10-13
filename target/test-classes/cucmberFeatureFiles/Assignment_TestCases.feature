@@ -11,7 +11,7 @@ Scenario Outline: Registration of a user
 
     Examples: 
       | firstName  | lastName | eMail  | userName | pass1 | phone | language |
-      | Ande | Swathi | ande@gmail.com | Swathi | Ande@2021 | 9876543210 | English |
+      | Ande | Swathi | ande1@gmail.com | AASwathi | Ande@2021 | 9876543210 | English |
       
       
 Scenario Outline: User Login
@@ -22,7 +22,7 @@ Scenario Outline: User Login
     
     Examples: 
     | username  | password | firstname | lastname |
-    | Swathi | Ande@2021 | Ande | Swathi |
+    | AASwathi | Ande@2021 | Ande | Swathi |
     
     
 Scenario Outline: Edit Profile
@@ -34,7 +34,7 @@ Scenario Outline: Edit Profile
     
     Examples: 
     | username  | password | newPass | 
-    | Swathi | Ande@ | 2021@Ande | 
+    | AASwathi | Ande@2021 | 2021@Ande | 
     
     
     

@@ -52,10 +52,7 @@ public class Assignment_TC1 {
 	@When("^User enter \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
 	public void user_enter(String fName, String lName, String eMail, String userName, String pass) throws Throwable {
 
-		strExpMsg = "Dear " + fName + " " + lName + ",\r\n" + "\r\n"
-				+ "Your personal settings have been registered.\r\n"
-				+ "An e-mail has been sent to remind you of your login and password.\r\n"
-				+ "You can now select, in the list, the course you want access to.";
+		strExpMsg = fName + " " + lName;
 
 		// Verify sign up page
 		driver.findElement(By.xpath("//h2[text()=\"Registration\"]")).isDisplayed();
@@ -97,7 +94,7 @@ public class Assignment_TC1 {
 
 		String strSuccessMsg = driver.findElement(By.xpath("//div[@class=\"col-xs-12 col-md-12\"]")).getText();
 
-		Assert.assertEquals(strSuccessMsg, strExpMsg);
+		Assert.assertTrue(strSuccessMsg.contains(strExpMsg));
 
 		driver.quit();
 
@@ -128,11 +125,12 @@ public class Assignment_TC1 {
 
 	@Then("^verify user home page with \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void verify_user_home_page_with_and(String fName, String lName) throws Throwable {
+		
+		strExpMsg = fName + " " + lName;
 
-		String strName = fName + " " + lName;
 		// Verify welcome msg with user name
 		String strWelcomemsg = driver.findElement(By.id("homepage-course")).getText();
-		Assert.assertTrue(strWelcomemsg.contains(strName));
+		Assert.assertTrue(strWelcomemsg.contains(strExpMsg));
 		// Close browser
 		driver.quit();
 
