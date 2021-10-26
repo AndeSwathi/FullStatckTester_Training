@@ -1,0 +1,431 @@
+21:28:02,576  INFO devpinoyLogger<strong>{1}</strong>:39 - Rest Assured Project Assignment starts
+21:28:03,763 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {}->http://rest-api.upskills.in:80
+21:28:03,781 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to rest-api.upskills.in:80
+21:28:04,370 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+21:28:04,373 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+21:28:04,374 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+21:28:04,376 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+21:28:04,377 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: POST /api/rest_admin/oauth2/token/client_credentials HTTP/1.1
+21:28:04,377 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "POST /api/rest_admin/oauth2/token/client_credentials HTTP/1.1[\r][\n]"
+21:28:04,379 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+21:28:04,380 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Authorization: Basic dXBza2lsbHNfcmVzdF9hZG1pbl9vYXV0aF9jbGllbnQ6dXBza2lsbHNfcmVzdF9hZG1pbl9vYXV0aF9zZWNyZXQ=[\r][\n]"
+21:28:04,380 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+21:28:04,380 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 0[\r][\n]"
+21:28:04,381 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: rest-api.upskills.in[\r][\n]"
+21:28:04,381 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+21:28:04,381 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)[\r][\n]"
+21:28:04,382 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:28:04,382 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+21:28:04,382 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> POST /api/rest_admin/oauth2/token/client_credentials HTTP/1.1
+21:28:04,382 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+21:28:04,382 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Authorization: Basic dXBza2lsbHNfcmVzdF9hZG1pbl9vYXV0aF9jbGllbnQ6dXBza2lsbHNfcmVzdF9hZG1pbl9vYXV0aF9zZWNyZXQ=
+21:28:04,382 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+21:28:04,383 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 0
+21:28:04,383 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: rest-api.upskills.in
+21:28:04,383 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+21:28:04,383 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)
+21:28:04,383 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+21:28:05,209 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+21:28:05,212 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+21:28:05,213 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+21:28:05,213 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "x-powered-by: PHP/5.6.40[\r][\n]"
+21:28:05,214 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: OCSESSID=ed6734cc2f7be4ca3a66edae0b; path=/[\r][\n]"
+21:28:05,214 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:04 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:05,215 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:04 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:05,215 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-type: application/json; charset=utf-8[\r][\n]"
+21:28:05,216 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-length: 287[\r][\n]"
+21:28:05,217 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-encoding: gzip[\r][\n]"
+21:28:05,218 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "vary: Accept-Encoding[\r][\n]"
+21:28:05,218 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "date: Tue, 26 Oct 2021 15:58:04 GMT[\r][\n]"
+21:28:05,219 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "server: LiteSpeed[\r][\n]"
+21:28:05,219 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+21:28:05,221 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 200 OK
+21:28:05,222 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 200 OK
+21:28:05,222 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+21:28:05,223 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+21:28:05,223 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << x-powered-by: PHP/5.6.40
+21:28:05,225 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: OCSESSID=ed6734cc2f7be4ca3a66edae0b; path=/
+21:28:05,226 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:04 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:05,227 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:04 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:05,227 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-type: application/json; charset=utf-8
+21:28:05,228 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-length: 287
+21:28:05,230 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-encoding: gzip
+21:28:05,231 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << vary: Accept-Encoding
+21:28:05,232 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << date: Tue, 26 Oct 2021 15:58:04 GMT
+21:28:05,232 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << server: LiteSpeed
+21:28:05,243 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:05,264 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json; charset=utf-8
+21:28:05,265 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]5O[0xcb]N[0xc3]0[0x10][0xfc][0x15]kO [0x85][0xda]I[0xf3][0xb2]U[0xf5][0xc0][0x89][0x3]w[0xe][0x8]E[0x8e][0xb3]%[0xab][0xda]N[0xb0][0x1d]DT[0xf5][0xdf]QZ8[0xad]vf[0xe7][0xb1][0x87][0xfe][0xf8][0xa6][0x83]'[0xff]y[0xe0][0xfd]Q1[0xb7][0xc6]/KJ[0xdd][0xe7][0xc3][0xa3]b/[0xa8][0x7][0xc][0x91]i?0c[0x9]}b[0x96][0xfa][0xa0][0xc3][0xca][0x1c][0xf9])[0xb0]o[0xc][0x91]&[0xcf][0x1c]E[0xa7][0x93][0x19]w[0xff][0x12][0x95][0xb]Q[0x89][0x96][0xbd][0xde][0xcf][0xb7][0xb5][0xd8][0xd7][0x8c]<;[0xf4]G>N[0xe][0xf9]"[0xcb]B[0x16]U[0x93][0xe7]|[0x98][0x9c]&[0x1f][0xf9]2[0xc7]3Y[0x1b]w[0xe4][0xf9][0xbc][0xf4][0x96]L7&gy[0xc0][0x98][0x9e][0xf4]L<[0xae]1[0xa1][0xe3]%[0xf8][0xd0][0xf3]{[0xd9][0xdd]<[0xce][0xdb][0x13]l[0xf2][0xcc][0x92][0xc7]-[0xa5][0xd9][0x80][0xb][0xc4][0xc5][0x18][0x8c][0x11]T[0x9e][0x1][0x86]0[0x5]P[0xef][0x1f][0x19][0xc]:iP[0x17][0xd0]7[0xb6]K[0xd3][0x19]=([0xc8][0x87][0xba][0x12][0xa7][0xe6]$%[0xee][![0xdb]\[0x9e]L[0xa9]uc[0xb0][0x10]MU[0xe7][0xba][0x94]z_[0x96][0x6]2[0xc0][0x9f][0x99][0x2][0xc6][0x8e]<[0xa8][0xb6].[0x85][0xc8][0xe0][0xe6][0xd2][0xa5]uFP[0xf0][0x8c]:`[0x80][0xeb][0xf5][0x17]}[0x12]87h[0x1][0x0][0x0]"
+21:28:05,266 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:28:05,337 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@396ef8b2
+21:28:05,338 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:05,340  INFO devpinoyLogger<strong>{1}</strong>:55 - {"success":1,"error":[],"data":{"access_token":"1d650f7f99e3809819fc4aa7ce207561a49a344c","expires_in":86400,"token_type":"Bearer"}}
+21:28:05,534  INFO devpinoyLogger<strong>{1}</strong>:59 - 1d650f7f99e3809819fc4aa7ce207561a49a344c
+21:28:05,534  INFO devpinoyLogger<strong>{1}</strong>:61 - TC001 validation completed
+21:28:05,572 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {}->http://rest-api.upskills.in:80
+21:28:05,572 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to rest-api.upskills.in:80
+21:28:06,196 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+21:28:06,197 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+21:28:06,197 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+21:28:06,198 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+21:28:06,198 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: POST /api/rest_admin/login HTTP/1.1
+21:28:06,199 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "POST /api/rest_admin/login HTTP/1.1[\r][\n]"
+21:28:06,199 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c[\r][\n]"
+21:28:06,200 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+21:28:06,200 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+21:28:06,201 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 66[\r][\n]"
+21:28:06,201 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: rest-api.upskills.in[\r][\n]"
+21:28:06,201 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+21:28:06,202 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)[\r][\n]"
+21:28:06,202 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:28:06,202 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+21:28:06,202 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> POST /api/rest_admin/login HTTP/1.1
+21:28:06,203 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c
+21:28:06,203 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+21:28:06,203 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/json; charset=UTF-8
+21:28:06,203 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 66
+21:28:06,204 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: rest-api.upskills.in
+21:28:06,204 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+21:28:06,204 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)
+21:28:06,205 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+21:28:06,205 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "{[\r][\n]"
+21:28:06,206 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "username" : "upskills_admin",[\r][\n]"
+21:28:06,207 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "password" : "Talent4$$"[\r][\n]"
+21:28:06,207 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  >> "}"
+21:28:07,012 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+21:28:07,012 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+21:28:07,013 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+21:28:07,014 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "x-powered-by: PHP/5.6.40[\r][\n]"
+21:28:07,014 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: OCSESSID=e27e7b9b7f12333a248e58a7da; path=/[\r][\n]"
+21:28:07,014 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:05 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:07,015 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:05 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:07,015 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-type: application/json; charset=utf-8[\r][\n]"
+21:28:07,016 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-length: 356[\r][\n]"
+21:28:07,016 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-encoding: gzip[\r][\n]"
+21:28:07,017 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "vary: Accept-Encoding[\r][\n]"
+21:28:07,017 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "date: Tue, 26 Oct 2021 15:58:05 GMT[\r][\n]"
+21:28:07,018 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "server: LiteSpeed[\r][\n]"
+21:28:07,018 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+21:28:07,019 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 200 OK
+21:28:07,019 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 200 OK
+21:28:07,020 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+21:28:07,020 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+21:28:07,021 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << x-powered-by: PHP/5.6.40
+21:28:07,021 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: OCSESSID=e27e7b9b7f12333a248e58a7da; path=/
+21:28:07,022 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:05 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:07,022 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:05 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:07,023 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-type: application/json; charset=utf-8
+21:28:07,023 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-length: 356
+21:28:07,023 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-encoding: gzip
+21:28:07,024 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << vary: Accept-Encoding
+21:28:07,024 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << date: Tue, 26 Oct 2021 15:58:05 GMT
+21:28:07,025 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << server: LiteSpeed
+21:28:07,026 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:07,027 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json; charset=utf-8
+21:28:07,027 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]U[0x8f]Ok[0x1b]A[0xc][0xc5][0xbf][0xca][0xa0]S[0x3][0xeb][0x9d][0x1d];[0xae][0xb3][0x83]1)[0xf4]PJ[0xee]=[0x94]b[0xb4];[0xca][0xae][0xc8][0xfc][0xd9][0x8e]f[0xb]&[0xe4][0xbb][0x97][0x89][0x9d]BO[0x92][0x9e]$[0xde][0xef][0x1d][0x87][0xd3][0xf][0xcc][0x91][0xe3]t[0xd4][0xc3][0xc9][0xaa]p[0x91][0xdf][0x9e][0xad][0xbd][0xd6]OwV}#t[0x94]Eatj[0xf4]L[0xb1]([0xcf]C[0xc6]|Q[0x81]c[0xca][0xea][0xf]e[0xe1][0x14]U`[0x9]X[0xc6][0xb9][0xfd]x[0xb1][0xa6][0xeb][0xf6][0xdd][0x83]z[0xba][0x9e][0xd7]q[0xbb][0xfb][0xac]8[0xaa][0xe3]p[0xd2]s[\n]"
+21:28:07,028 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0xa4][0xd7][0xfe]~[0xdb]o[0xf7][0x7]c[0xb4]K[0x1]9[0x8a]^[0x17]ya[0xef][0xa5][0xe5][0xa8][0x97]u[0xf0]<[0x9e][0xe7][0x12][0xbc][0xce]$e[0x83][0xb]k[0xb9]H[0xa1][0xa0]o[0x10][0xda][\r][0xfa][\n]"
+21:28:07,029 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0xdb].[0xf3]RC[0xa8][0x14][0x95][0xe7]H[0xd5][0xe5]P[0x85]W[0x90]u[0x1c]I[0x4][0xac]i[0x80]rN[0x19][0xec][0xcf]_[\r]8,[0x8][0xf6][0x15]V[0xa1]|f[0x7][0x16][0xc]4[0xd7]i[0xca]i][0xfe][0xd7]"[0x6][0x2][0xb][0x1f]|gt[0x81]#4[0xf0][0xcc]Y[0xca]m[0xf9]=[0xcd]U[0xf2][0xf8]O[0xf9][0x9a][0x8][0x1a][0xa0][0x80][0xec][0xc1][0xc2][0x92][0xd3][0xc0]E[\n]"
+21:28:07,029 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x8d]sL>ML[0xf2]8[0xd5]];[0xa6][0x0][\r]p[0xc0][0xa9][0x9a][0xd4]v[0xa9]<[0xe6][0xd0][0x9a]~[0xdf][0x1a][0xd3][0xf6];h@[\n]"
+21:28:07,030 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x96]Un[0xa0][0xe][0xb][0x9d][0xd1]9[0xaa][0xe4][0xdb][0xce][0xf4][0x1b]c6[0xc6][0xa8][0xee]`[0xf7][0xbd][0xdd][0xd5][0xfb][0xf7]d[0xef]Y[0xc0][0xc2][0x97][\n]"
+21:28:07,030 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "[0xcc]R2[0x96][0x94][0xe1][0xed][0xed]/[0x6][0x90]P4[0xfc][0x1][0x0][0x0]"
+21:28:07,031 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:28:07,057 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@71e35c4
+21:28:07,057 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:07,115 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {}->http://rest-api.upskills.in:80
+21:28:07,116 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to rest-api.upskills.in:80
+21:28:07,831 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+21:28:07,832 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+21:28:07,832 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+21:28:07,832 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+21:28:07,832 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: GET /api/rest_admin/user HTTP/1.1
+21:28:07,833 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "GET /api/rest_admin/user HTTP/1.1[\r][\n]"
+21:28:07,833 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c[\r][\n]"
+21:28:07,833 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+21:28:07,834 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+21:28:07,834 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 66[\r][\n]"
+21:28:07,834 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: rest-api.upskills.in[\r][\n]"
+21:28:07,835 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+21:28:07,835 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)[\r][\n]"
+21:28:07,836 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:28:07,836 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+21:28:07,836 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> GET /api/rest_admin/user HTTP/1.1
+21:28:07,836 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c
+21:28:07,837 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+21:28:07,837 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/json; charset=UTF-8
+21:28:07,837 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 66
+21:28:07,837 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: rest-api.upskills.in
+21:28:07,838 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+21:28:07,838 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)
+21:28:07,838 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+21:28:07,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "{[\r][\n]"
+21:28:07,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "username" : "upskills_admin",[\r][\n]"
+21:28:07,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "password" : "Talent4$$"[\r][\n]"
+21:28:07,839 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  >> "}"
+21:28:09,880 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+21:28:09,881 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+21:28:09,881 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+21:28:09,882 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "x-powered-by: PHP/5.6.40[\r][\n]"
+21:28:09,882 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: OCSESSID=f7a43794a1b699d83485e3bf19; path=/[\r][\n]"
+21:28:09,882 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:07 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:09,883 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:07 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:09,883 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-type: application/json; charset=utf-8[\r][\n]"
+21:28:09,883 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-length: 354[\r][\n]"
+21:28:09,883 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-encoding: gzip[\r][\n]"
+21:28:09,884 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "vary: Accept-Encoding[\r][\n]"
+21:28:09,884 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "date: Tue, 26 Oct 2021 15:58:07 GMT[\r][\n]"
+21:28:09,884 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "server: LiteSpeed[\r][\n]"
+21:28:09,885 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+21:28:09,885 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 200 OK
+21:28:09,885 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 200 OK
+21:28:09,886 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+21:28:09,886 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+21:28:09,886 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << x-powered-by: PHP/5.6.40
+21:28:09,886 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: OCSESSID=f7a43794a1b699d83485e3bf19; path=/
+21:28:09,887 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:07 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:09,887 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:07 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:09,887 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-type: application/json; charset=utf-8
+21:28:09,888 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-length: 354
+21:28:09,888 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-encoding: gzip
+21:28:09,888 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << vary: Accept-Encoding
+21:28:09,888 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << date: Tue, 26 Oct 2021 15:58:07 GMT
+21:28:09,889 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << server: LiteSpeed
+21:28:09,890 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:09,891 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json; charset=utf-8
+21:28:09,891 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]U[0x8f]O[0x8b][0xdb]@[0xc][0xc5][0xbf][0xca][0xa0]S[0xb][0x8e][0xc7][0xe3]l[0x92][0xcd][0x10]B[0x17]z(e[0xef]=[0x94][0x12]d[0x8f]j[0x8b][0xce][0x1f][0xef]h\[0x8][0xcb]~[0xf7]2$[[0xd8][0x93][0xf4][0x9e]$[0xf4]{[0xa7][0xe1][0xfc][0x3]s[0xe4]8[0x9d][0xf4]p[0xb6]*\[0xe5][0xc5][0xb3][0xb5][0xb7][0xfa][0xe9][0xb3]U[0xdf][0x8][0x1d]eQ[0x18][0x9d][0x1a]=S,[0xca][0xf3][0x90]1_U[0xe0][0x98][0xb2][0xfa]KY8E[0x15]X[0x2][0x96]qn[0xdf]O[0xac][0xe9][0xba]][0xf7][0xa8][0x9e]o[0xeb]U[0xf6][0xdb][0xbd][0xe2][0xa8]N[0xc3]Y[0xcf])[0x90]^[0x8f][0xf][0xfd][0xb1][0xdf][0x1d][0x8c][0xd1].[0x5][0xe4](z][0xe4][0xf]{/-G[0xbd][0xac][0x83][0xe7][0xf1]2[0x97][0xe0]u&)[0x1b]\X[0xcb]U[\n]"
+21:28:09,892 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x5]}[0x87][0xd0]n[0xd0]7[0xd8]v[0x99][0x97][0x1a]B[0xa5][0xa8]<G[0xaa]_[0xe][0xd5]x[0x5]Y[0xc7][0x91]D[0xc0][0x9a][0x6]([0xe7][0x94][0xc1][0xfe][0xfc][0xd5][0x80][0xc3][0x82]`_a[0x15][0xca][0x17]v`[0xc1]@sSSN[0xeb][0xf2][0xd1][0x8b][0x18][0x8],[0xbc][0xf3]][0xd0][0x5][0x8e][0xd0][0xc0]o[0xce]R[0xee][0xc3][0xef]i[0xae][0x96][0xc7][0xff][0xce][0xd7]D[0xd0][0x0][0x5]d[0xf][0x16][0x96][0x9c][0x6].Rh[0x9c]c[0xf2]ib[0x92]/S[0x9d][0xb5]c[\n]"
+21:28:09,892 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "[0xd0][0x0][0x7][0x9c][0xea][0x93][0xda].[0x95][0xa7][0xdb][0xb7]}[0xf7][0xd8][0xee][0xfb][0xd6]t[0xd0][0x80][0x14],[0xab][0xdc]A[0x1d][0x16][0xba][0xa0]sT[0xc9][0xfb][0xce][0x1c]7[0xc6]l[0x8c]Q[0xdd][0xc1][0xee][0x8e]v[0xbb][0xfd][0x90][0x5],<U`[0x96][0x92][0xb1][0xa4][0xc]oo[0xff][0x0][0x9][0xfd]vC[0xfc][0x1][0x0][0x0]"
+21:28:09,893 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:28:09,898 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@423c5404
+21:28:09,899 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:09,911  INFO devpinoyLogger<strong>{1}</strong>:128 - TC002 validation completed
+21:28:09,936 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {}->http://rest-api.upskills.in:80
+21:28:09,937 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to rest-api.upskills.in:80
+21:28:10,699 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+21:28:10,700 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+21:28:10,701 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+21:28:10,701 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+21:28:10,701 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: POST /api/rest_admin/customers HTTP/1.1
+21:28:10,702 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "POST /api/rest_admin/customers HTTP/1.1[\r][\n]"
+21:28:10,702 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c[\r][\n]"
+21:28:10,703 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+21:28:10,703 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+21:28:10,704 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 1362[\r][\n]"
+21:28:10,704 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: rest-api.upskills.in[\r][\n]"
+21:28:10,705 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+21:28:10,705 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)[\r][\n]"
+21:28:10,705 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:28:10,706 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+21:28:10,706 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> POST /api/rest_admin/customers HTTP/1.1
+21:28:10,706 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c
+21:28:10,706 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+21:28:10,706 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/json; charset=UTF-8
+21:28:10,707 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 1362
+21:28:10,707 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: rest-api.upskills.in
+21:28:10,707 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+21:28:10,707 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)
+21:28:10,708 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+21:28:10,708 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "{[\r][\n]"
+21:28:10,708 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "firstname": "Ande2",[\r][\n]"
+21:28:10,709 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "lastname": "Swathi2",[\r][\n]"
+21:28:10,709 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "email": "andeSwathi2@gmail.com",[\r][\n]"
+21:28:10,709 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "password": "AndePassword2",[\r][\n]"
+21:28:10,710 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "confirm": "AndePassword2",[\r][\n]"
+21:28:10,710 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "telephone": "51-541-754-3010",[\r][\n]"
+21:28:10,712 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "fax": "51-541-754-3010",[\r][\n]"
+21:28:10,712 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "newsletter": "1",[\r][\n]"
+21:28:10,713 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "status": "1",[\r][\n]"
+21:28:10,713 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "approved": "1",[\r][\n]"
+21:28:10,715 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "safe": "1",[\r][\n]"
+21:28:10,715 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "customer_group_id": "1",[\r][\n]"
+21:28:10,715 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "custom_field": {[\r][\n]"
+21:28:10,716 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "1": "1985-02-01",[\r][\n]"
+21:28:10,716 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "2": "2"[\r][\n]"
+21:28:10,716 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  },[\r][\n]"
+21:28:10,716 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "address": [[\r][\n]"
+21:28:10,717 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    {[\r][\n]"
+21:28:10,717 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "firstname": "Demo",[\r][\n]"
+21:28:10,718 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "lastname": "User",[\r][\n]"
+21:28:10,718 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "company": "XYZ LTD.",[\r][\n]"
+21:28:10,718 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "city": "Berlin",[\r][\n]"
+21:28:10,719 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "address_1": "Demo street",[\r][\n]"
+21:28:10,719 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "country_id": "81",[\r][\n]"
+21:28:10,724 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "postcode": "1111",[\r][\n]"
+21:28:10,725 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "zone_id": "1256",[\r][\n]"
+21:28:10,725 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "address_2": "Long street 33",[\r][\n]"
+21:28:10,725 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "address_id": "10",[\r][\n]"
+21:28:10,726 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "default": "1",[\r][\n]"
+21:28:10,726 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "custom_field": {[\r][\n]"
+21:28:10,727 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "        "3": "https://rest-api.upskills.in"[\r][\n]"
+21:28:10,727 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      }[\r][\n]"
+21:28:10,728 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    }[\r][\n]"
+21:28:10,728 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  ],[\r][\n]"
+21:28:10,729 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "affiliate": {[\r][\n]"
+21:28:10,729 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "company": "company",[\r][\n]"
+21:28:10,729 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "website": "http://demo.com",[\r][\n]"
+21:28:10,730 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "tracking": "Tracking number",[\r][\n]"
+21:28:10,730 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "commission": "3",[\r][\n]"
+21:28:10,731 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "tax": "99998888",[\r][\n]"
+21:28:10,731 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "cheque": "Demo",[\r][\n]"
+21:28:10,731 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "paypal": "demo@demo.com",[\r][\n]"
+21:28:10,732 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_name": "Bank Name",[\r][\n]"
+21:28:10,732 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_branch_number": "ABA/BSB number (Branch Number)",[\r][\n]"
+21:28:10,733 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_swift_code": "SWIFT Code",[\r][\n]"
+21:28:10,734 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_account_name": "Account Name",[\r][\n]"
+21:28:10,734 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_account_number": "Account Number",[\r][\n]"
+21:28:10,735 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "status": "1",[\r][\n]"
+21:28:10,735 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "payment": "paypal",[\r][\n]"
+21:28:10,735 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "custom_field": {[\r][\n]"
+21:28:10,735 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "1": "custom field"[\r][\n]"
+21:28:10,735 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    }[\r][\n]"
+21:28:10,736 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  }[\r][\n]"
+21:28:10,736 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  >> "}"
+21:28:12,337 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+21:28:12,338 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+21:28:12,338 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+21:28:12,338 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "x-powered-by: PHP/5.6.40[\r][\n]"
+21:28:12,339 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: OCSESSID=8cb24093f8ff3f0f7126a9b971; path=/[\r][\n]"
+21:28:12,339 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:10 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:12,339 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:10 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:12,339 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-type: application/json; charset=utf-8[\r][\n]"
+21:28:12,340 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-length: 233[\r][\n]"
+21:28:12,340 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-encoding: gzip[\r][\n]"
+21:28:12,340 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "vary: Accept-Encoding[\r][\n]"
+21:28:12,340 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "date: Tue, 26 Oct 2021 15:58:11 GMT[\r][\n]"
+21:28:12,341 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "server: LiteSpeed[\r][\n]"
+21:28:12,342 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+21:28:12,343 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 400 Bad Request
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 400 Bad Request
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << x-powered-by: PHP/5.6.40
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: OCSESSID=8cb24093f8ff3f0f7126a9b971; path=/
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:10 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:10 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-type: application/json; charset=utf-8
+21:28:12,343 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-length: 233
+21:28:12,344 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-encoding: gzip
+21:28:12,344 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << vary: Accept-Encoding
+21:28:12,344 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << date: Tue, 26 Oct 2021 15:58:11 GMT
+21:28:12,344 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << server: LiteSpeed
+21:28:12,345 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:12,346 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json; charset=utf-8
+21:28:12,347 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]5OAN[0xc3]0[0x10][0xfc][0xca][0xca]'[0x90]J[0x9c][0x4]J[0xa9][0x15][0xe5][0xcc][0x81];[0x87][0xaa][0xaa]lg[0xd5][0xac]j[0xaf][0x83][0xd7]AD[0x88][0xbf][0xa3](p[0xda][0x99][0xd1][0x8c]f[0xb6]s[0xfd][0xbb][0xcd]L|[0xed][0xb4][0xeb][\r][0xc4]E>[0x2][0x19][0xb3][0xdd][0xbb]{[0x3][0xaf]h[0x7][0xcc][0x2][0x96][0x7][0xf0][0x81][0x90][0xb][0x4]r[0xd9][0xe6][0x5]"q[0xca][0xf0][0x89]Y(1D[0x92]h[0x8b][0x1f][0xab][0xff][0x88]i[0xea]z_[0xbf][0xc0][0xdb]f_i[0xfb][0xf8][0xc][0xc4][0xd0][0xb9]^[0x8f])[0xa2][0x9e][0x8f]O[0xed][0xb1][0xdd][0x1f][0x9a]F[0xf])Zb[0xd1][0xf3]$7[\n]"
+21:28:12,347 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "A*b=[0xcd].[0x90][0xbf][0x8c]%[0x6][0x9d]Q[0xca][0x83][0x9d]H[0xcb]"[0x5][0xa3][0xfe][0x1b][0xa1][0x7][0xa7][0xb7][0xb1][0xd5]4N[0xeb][0x13][0x90][0x18][0x2]1[0xae]-[0x87]U[0xf8]V2{[0x8f]"[0xca][0xd4];[0x85]9[0xa7][0xac][0xcc]i[0x3][0x97][0x92][0xad][0xbf][0x11]_/[0xf8]ERD[0x9d]wj[0xb0][0xc5]*s:[0xff][0xfc][0x2][0xf5][0xa1]~[0x9c][0x1d][0x1][0x0][0x0]"
+21:28:12,348 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:28:12,376 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {}->http://rest-api.upskills.in:80
+21:28:12,377 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to rest-api.upskills.in:80
+21:28:12,782 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+21:28:12,783 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+21:28:12,783 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+21:28:12,783 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+21:28:12,784 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: POST /api/rest_admin/customers/added_on/2017-04-30 HTTP/1.1
+21:28:12,784 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "POST /api/rest_admin/customers/added_on/2017-04-30 HTTP/1.1[\r][\n]"
+21:28:12,785 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c[\r][\n]"
+21:28:12,785 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+21:28:12,786 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+21:28:12,786 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 1362[\r][\n]"
+21:28:12,786 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: rest-api.upskills.in[\r][\n]"
+21:28:12,786 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+21:28:12,787 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)[\r][\n]"
+21:28:12,787 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:28:12,787 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+21:28:12,788 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> POST /api/rest_admin/customers/added_on/2017-04-30 HTTP/1.1
+21:28:12,789 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Authorization: Bearer 1d650f7f99e3809819fc4aa7ce207561a49a344c
+21:28:12,789 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json, application/javascript, text/javascript, text/json
+21:28:12,789 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/json; charset=UTF-8
+21:28:12,789 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 1362
+21:28:12,789 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: rest-api.upskills.in
+21:28:12,790 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+21:28:12,790 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.10)
+21:28:12,790 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+21:28:12,790 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "{[\r][\n]"
+21:28:12,791 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "firstname": "Ande2",[\r][\n]"
+21:28:12,791 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "lastname": "Swathi2",[\r][\n]"
+21:28:12,791 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "email": "andeSwathi2@gmail.com",[\r][\n]"
+21:28:12,791 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "password": "AndePassword2",[\r][\n]"
+21:28:12,792 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "confirm": "AndePassword2",[\r][\n]"
+21:28:12,792 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "telephone": "51-541-754-3010",[\r][\n]"
+21:28:12,793 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "fax": "51-541-754-3010",[\r][\n]"
+21:28:12,793 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "newsletter": "1",[\r][\n]"
+21:28:12,794 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "status": "1",[\r][\n]"
+21:28:12,794 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "approved": "1",[\r][\n]"
+21:28:12,794 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "safe": "1",[\r][\n]"
+21:28:12,795 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "customer_group_id": "1",[\r][\n]"
+21:28:12,796 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "custom_field": {[\r][\n]"
+21:28:12,796 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "1": "1985-02-01",[\r][\n]"
+21:28:12,796 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "2": "2"[\r][\n]"
+21:28:12,796 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  },[\r][\n]"
+21:28:12,796 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "address": [[\r][\n]"
+21:28:12,797 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    {[\r][\n]"
+21:28:12,797 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "firstname": "Demo",[\r][\n]"
+21:28:12,797 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "lastname": "User",[\r][\n]"
+21:28:12,797 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "company": "XYZ LTD.",[\r][\n]"
+21:28:12,797 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "city": "Berlin",[\r][\n]"
+21:28:12,798 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "address_1": "Demo street",[\r][\n]"
+21:28:12,798 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "country_id": "81",[\r][\n]"
+21:28:12,798 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "postcode": "1111",[\r][\n]"
+21:28:12,798 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "zone_id": "1256",[\r][\n]"
+21:28:12,798 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "address_2": "Long street 33",[\r][\n]"
+21:28:12,799 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "address_id": "10",[\r][\n]"
+21:28:12,799 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "default": "1",[\r][\n]"
+21:28:12,799 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "custom_field": {[\r][\n]"
+21:28:12,799 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "        "3": "https://rest-api.upskills.in"[\r][\n]"
+21:28:12,799 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      }[\r][\n]"
+21:28:12,799 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    }[\r][\n]"
+21:28:12,800 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  ],[\r][\n]"
+21:28:12,800 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  "affiliate": {[\r][\n]"
+21:28:12,800 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "company": "company",[\r][\n]"
+21:28:12,800 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "website": "http://demo.com",[\r][\n]"
+21:28:12,800 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "tracking": "Tracking number",[\r][\n]"
+21:28:12,801 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "commission": "3",[\r][\n]"
+21:28:12,801 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "tax": "99998888",[\r][\n]"
+21:28:12,801 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "cheque": "Demo",[\r][\n]"
+21:28:12,801 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "paypal": "demo@demo.com",[\r][\n]"
+21:28:12,801 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_name": "Bank Name",[\r][\n]"
+21:28:12,801 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_branch_number": "ABA/BSB number (Branch Number)",[\r][\n]"
+21:28:12,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_swift_code": "SWIFT Code",[\r][\n]"
+21:28:12,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_account_name": "Account Name",[\r][\n]"
+21:28:12,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "bank_account_number": "Account Number",[\r][\n]"
+21:28:12,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "status": "1",[\r][\n]"
+21:28:12,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "payment": "paypal",[\r][\n]"
+21:28:12,803 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    "custom_field": {[\r][\n]"
+21:28:12,803 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "      "1": "custom field"[\r][\n]"
+21:28:12,803 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "    }[\r][\n]"
+21:28:12,803 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "  }[\r][\n]"
+21:28:12,803 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  >> "}"
+21:28:13,565 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+21:28:13,565 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+21:28:13,565 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+21:28:13,565 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "x-powered-by: PHP/5.6.40[\r][\n]"
+21:28:13,566 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: OCSESSID=4f78c4cd8a4d2bd297932ecc41; path=/[\r][\n]"
+21:28:13,566 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:12 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:13,566 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:12 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in[\r][\n]"
+21:28:13,566 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-type: application/json; charset=utf-8[\r][\n]"
+21:28:13,566 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-length: 233[\r][\n]"
+21:28:13,567 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "content-encoding: gzip[\r][\n]"
+21:28:13,567 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "vary: Accept-Encoding[\r][\n]"
+21:28:13,567 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "date: Tue, 26 Oct 2021 15:58:12 GMT[\r][\n]"
+21:28:13,567 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "server: LiteSpeed[\r][\n]"
+21:28:13,567 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+21:28:13,568 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 400 Bad Request
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 400 Bad Request
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << x-powered-by: PHP/5.6.40
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: OCSESSID=4f78c4cd8a4d2bd297932ecc41; path=/
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: language=en-gb; expires=Thu, 25-Nov-2021 15:58:12 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << set-cookie: currency=INR; expires=Thu, 25-Nov-2021 15:58:12 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in
+21:28:13,568 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-type: application/json; charset=utf-8
+21:28:13,569 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-length: 233
+21:28:13,569 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << content-encoding: gzip
+21:28:13,569 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << vary: Accept-Encoding
+21:28:13,569 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << date: Tue, 26 Oct 2021 15:58:12 GMT
+21:28:13,569 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << server: LiteSpeed
+21:28:13,569 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:13,569 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json; charset=utf-8
+21:28:13,570 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]5OAN[0xc3]0[0x10][0xfc][0xca][0xca]'[0x90]J[0x9c][0x4]J[0xa9][0x15][0xe5][0xcc][0x81];[0x87][0xaa][0xaa]lg[0xd5][0xac]j[0xaf][0x83][0xd7]AD[0x88][0xbf][0xa3](p[0xda][0x99][0xd1][0x8c]f[0xb6]s[0xfd][0xbb][0xcd]L|[0xed][0xb4][0xeb][\r][0xc4]E>[0x2][0x19][0xb3][0xdd][0xbb]{[0x3][0xaf]h[0x7][0xcc][0x2][0x96][0x7][0xf0][0x81][0x90][0xb][0x4]r[0xd9][0xe6][0x5]"q[0xca][0xf0][0x89]Y(1D[0x92]h[0x8b][0x1f][0xab][0xff][0x88]i[0xea]z_[0xbf][0xc0][0xdb]f_i[0xfb][0xf8][0xc][0xc4][0xd0][0xb9]^[0x8f])[0xa2][0x9e][0x8f]O[0xed][0xb1][0xdd][0x1f][0x9a]F[0xf])Zb[0xd1][0xf3]$7[\n]"
+21:28:13,570 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "A*b=[0xcd].[0x90][0xbf][0x8c]%[0x6][0x9d]Q[0xca][0x83][0x9d]H[0xcb]"[0x5][0xa3][0xfe][0x1b][0xa1][0x7][0xa7][0xb7][0xb1][0xd5]4N[0xeb][0x13][0x90][0x18][0x2]1[0xae]-[0x87]U[0xf8]V2{[0x8f]"[0xca][0xd4];[0x85]9[0xa7][0xac][0xcc]i[0x3][0x97][0x92][0xad][0xbf][0x11]_/[0xf8]ERD[0x9d]wj[0xb0][0xc5]*s:[0xff][0xfc][0x2][0xf5][0xa1]~[0x9c][0x1d][0x1][0x0][0x0]"
+21:28:13,570 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+21:28:13,573 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4779aae6
+21:28:13,574 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive for 5000 MILLISECONDS
+21:28:13,574  INFO devpinoyLogger<strong>{1}</strong>:169 - <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":0,"error":["error_tracking_exists"],"data":[]}
