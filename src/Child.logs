@@ -1,6 +1,5 @@
-26/10/2021 21:28:02 devpinoyLogger Rest Assured Project Assignment starts
-26/10/2021 21:28:05 devpinoyLogger {"success":1,"error":[],"data":{"access_token":"1d650f7f99e3809819fc4aa7ce207561a49a344c","expires_in":86400,"token_type":"Bearer"}}
-26/10/2021 21:28:05 devpinoyLogger 1d650f7f99e3809819fc4aa7ce207561a49a344c
-26/10/2021 21:28:05 devpinoyLogger TC001 validation completed
-26/10/2021 21:28:09 devpinoyLogger TC002 validation completed
-26/10/2021 21:28:13 devpinoyLogger <b>Warning</b>: mysqli::mysqli(): Headers and client library minor version mismatch. Headers:100508 Library:100236 in <b>/home/u942925711/domains/upskills.in/public_html/rest-api/system/library/db/mysqli.php</b> on line <b>7</b>{"success":0,"error":["error_tracking_exists"],"data":[]}
+27/10/2021 08:41:09 devpinoyLogger Rest Assured Project Assignment starts
+27/10/2021 08:41:12 devpinoyLogger {"success":1,"error":[],"data":{"access_token":"388326f11e4bfeff1b40b0bfadefc02a92ddd6a3","expires_in":86400,"token_type":"Bearer"}}
+27/10/2021 08:41:12 devpinoyLogger 388326f11e4bfeff1b40b0bfadefc02a92ddd6a3
+27/10/2021 08:41:12 devpinoyLogger TC001 validation completed
+27/10/2021 08:41:14 devpinoyLogger TC002 validation completed

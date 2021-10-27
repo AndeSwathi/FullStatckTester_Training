@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-26T21:28:02 IST" name="Default suite" finished-at="2021-10-26T21:28:13 IST" duration-ms="11137">
+  <suite started-at="2021-10-27T08:41:09 IST" name="Default suite" finished-at="2021-10-27T08:41:14 IST" duration-ms="5158">
     <groups>
     </groups>
-    <test started-at="2021-10-26T21:28:02 IST" name="Default test" finished-at="2021-10-26T21:28:13 IST" duration-ms="11137">
+    <test started-at="2021-10-27T08:41:09 IST" name="Default test" finished-at="2021-10-27T08:41:14 IST" duration-ms="5158">
       <class name="restAssuredProject.TestCasesRestAssured">
-        <test-method signature="TC001_getAccessToken()[pri:0, instance:restAssuredProject.TestCasesRestAssured@117159c0]" started-at="2021-10-26T21:28:02 IST" name="TC001_getAccessToken" finished-at="2021-10-26T21:28:05 IST" duration-ms="3070" status="PASS">
+        <test-method signature="TC001_getAccessToken()[pri:0, instance:restAssuredProject.TestCasesRestAssured@54422e18]" started-at="2021-10-27T08:41:09 IST" name="TC001_getAccessToken" finished-at="2021-10-27T08:41:12 IST" duration-ms="2671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_getAccessToken -->
-        <test-method signature="TC002_adminLogin()[pri:0, instance:restAssuredProject.TestCasesRestAssured@117159c0]" started-at="2021-10-26T21:28:05 IST" name="TC002_adminLogin" finished-at="2021-10-26T21:28:09 IST" duration-ms="4373" status="PASS">
+        <test-method signature="TC002_adminLogin()[pri:0, instance:restAssuredProject.TestCasesRestAssured@54422e18]" started-at="2021-10-27T08:41:12 IST" name="TC002_adminLogin" finished-at="2021-10-27T08:41:14 IST" duration-ms="2456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_adminLogin -->
-        <test-method signature="TC003_AddNewCustomer()[pri:0, instance:restAssuredProject.TestCasesRestAssured@117159c0]" started-at="2021-10-26T21:28:09 IST" name="TC003_AddNewCustomer" finished-at="2021-10-26T21:28:13 IST" duration-ms="3660" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC003_AddNewCustomer -->
       </class> <!-- restAssuredProject.TestCasesRestAssured -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

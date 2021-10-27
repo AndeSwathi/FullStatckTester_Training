@@ -95,7 +95,7 @@ public class TestCasesRestAssured {
 		// In User service, call logout admin user api endpoint.
 		RestAssured.given().baseUri("http://rest-api.upskills.in/api/rest_admin/logout")
 				.header("Authorization", "Bearer " + accessToken).accept(ContentType.JSON).contentType(ContentType.JSON)
-				.body(jsonFile).when().post()
+				.when().post()
 				// Add script Assertion to validate status code and admin username
 				.then().log().ifStatusCodeIsEqualTo(200);
 
